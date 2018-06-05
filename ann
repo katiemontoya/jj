@@ -1,0 +1,68 @@
+/*************************************************************************
+* NOTICE OF COPYRIGHT                                                    *
+*                                                                        *
+*            Copyright (C) 2018                                          *
+*                                                                        *
+*     Katerin Montoya Suárez(1) - Julian Salamanca (2)                   *
+*                                                                        *
+*    (3) Grupo de Física e Informática (FISINFOR) Universidad            *
+*                                                                        *
+*            Distrital Francisco José de Caldas                          *
+*                                                                        *
+*  This program is free software; you can redistribute it and/or modify  *
+*  it under the terms of the GNU General Public License as published by  *
+*  the Free Software Foundation; either version 2 of the License, or     * 
+*  (at your option) any later version.                                   *
+*                                                                        *
+*  This program is distributed in the hope that it will be useful,       *
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
+*  GNU General Public License for more details:                          * 
+*                                                                        *
+*                  http://www.gnu.org/copyleft/gpl.html                  *
+*                                                                        *
+*                   https://github.com/katiemontoya                      *
+*                                                                        *
+* (1) kymontoyas@correoudistrital.edu.co                                 * 
+* (2) jasalamanca@udistrital.edu.co                                       *
+*                                                                        *
+*                                                                        *  
+*                                                                        *
+*************************************************************************/
+/*************************************************************************
+*                                                                        *
+*   Program Ann.C                                                        *
+*                                                                        *
+*   Author:      Katerin Montoya Suárez                                  *
+*                Julian Salamanca                                        *
+*                Facultad de Ciencias y Educación                        *
+*                Universidad Distrital Francisco José de Caldas          *
+*                                                                        *
+*  Usage:        Please read README_ANN.txt                              *
+*                                                                        *
+*                                                                        *
+*                                                                        *
+*************************************************************************/
+#include "Riostream.h"
+#include "TMatrixD.h"
+#include "TRandom.h"
+#include "TCanvas.h"
+#include "TMath.h"
+#include "TH3D.h"
+#include "iomanip"
+#include "include/Ann.h"
+
+//==========================================================================
+// Ann(3,12,8,2)
+//==========================================================================
+
+
+Int_t Ann(){  
+  Int_t i,j;
+  
+  Arquitectura *asig = new Arquitectura();
+  asig -> Conection1();
+  //(*asig).Conection1();
+  
+   return 0;
+}
